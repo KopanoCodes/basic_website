@@ -57,15 +57,17 @@ h5 {
 h6 {
   font-size: 0.875rem;
 }
+
 .block {
   border: 1px solid;
   padding: 1em;
   margin-bottom: 1em;
   margin-top: 0.5em;
   border-radius: 1em;
-  background-color: rgba(128, 128, 128, 0.266);  
- 
+  background-color: rgba(128, 128, 128, 0.266);
+
 }
+
 p {
   font-size: 1.125rem;
   font-weight: 200;
@@ -187,22 +189,26 @@ p {
 }
 
 .row::after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hidden-sm {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
+@media only screen and (min-width: 33.75em) {
+
+  /* 540px */
   .container {
     width: 80%;
   }
 }
 
-@media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 45em) {
+
+  /* 720px */
   .col-1 {
     width: 4.33%;
   }
@@ -256,12 +262,15 @@ p {
   }
 }
 
-@media only screen and (min-width: 60em) { /* 960px */
+@media only screen and (min-width: 60em) {
+
+  /* 960px */
   .container {
     width: 75%;
     max-width: 60rem;
   }
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -269,7 +278,8 @@ table {
   background-color: beige;
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -283,28 +293,34 @@ th {
   display: flex;
   align-items: flex-start;
 }
+
 .cities {
   margin-right: 20px;
 }
+
 @media (max-width: 960px) {
   .cities {
-      display: block;
- 
+    display: block;
+
   }
 
   .cities {
-      margin-right: 0;
-      margin-bottom: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
-  
+
   .cities img {
     display: block;
     margin: 0 auto;
+  }
 }
-}
+
 .objects {
   background-color: blanchedalmond;
 }
-h3, h4, h5{
+
+h3,
+h4,
+h5 {
   color: rgba(17, 0, 255, 0.89);
 }
